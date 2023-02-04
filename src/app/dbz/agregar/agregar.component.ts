@@ -30,17 +30,6 @@ constructor( private dbzService: DbzService )  {}
         return
     }
     
-    // -- tarea --
-    // 1. Insertar en el arreglo (push)
-    // 2. Inicializar el arreglo con un objeto vacio
-
-    //  agregar el nuevo personaje
-    // this.personajes.push( this.nuevo )
-
-    // console.log(this.nuevo)
-
-    // this.onNuevoPersonaje.emit( this.nuevo );
-
 
     this.dbzService.agregarPersonaje( this.nuevo );
 
